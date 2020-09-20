@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Playground web</title>
+</head>
+<body>
+    <header>
+        <h1>Editor en tiempo real</h1>
+    </header>
+    <div class="contenedor">
+        <textarea onkeyup="visualizarAhora()" placeholder="Codifica aqui..." class="area" id="area"></textarea>
+        <iframe class="vista" id="vista"></iframe>
+    </div>
+
+    <footer>
+        <span>Gracias Por Visitar Este proyecto</span>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
